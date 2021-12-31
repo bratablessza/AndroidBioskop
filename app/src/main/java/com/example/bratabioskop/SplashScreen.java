@@ -13,7 +13,7 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
-        Toast.makeText(getApplicationContext(),"Anda mau QUIZ?!",Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),"Anda mau QUIZ?!",Toast.LENGTH_SHORT).show();
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -25,6 +25,6 @@ public class SplashScreen extends AppCompatActivity {
                 // close this activity
                 finish();
             }
-        }, 3000);
+        }, 1000);
     }
 }

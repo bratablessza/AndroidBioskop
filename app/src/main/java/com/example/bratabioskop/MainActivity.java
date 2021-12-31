@@ -11,6 +11,7 @@ import android.support.v7.widget.ShareActionProvider;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
     private ShareActionProvider shareActionProvider;
@@ -54,6 +55,10 @@ public class MainActivity extends AppCompatActivity {
         shareActionProvider.setShareIntent(intent);
     }
 
+    public void CardOnClicked(View view) {
+        Intent cus = new Intent(MainActivity.this,DetailActivity.class);
+        startActivity(cus);
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

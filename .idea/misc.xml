@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/JC/Android/AndroidBioskop/app/src/main/res/layout/activity_detail.xml" value="0.9" />
+        <entry key="..\:/JC/Android/AndroidBioskop/app/src/main/res/layout/activity_inner.xml" value="0.25" />
+        <entry key="..\:/JC/Android/AndroidBioskop/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
+        <entry key="..\:/JC/Android/AndroidBioskop/app/src/main/res/layout/card_captioned_image.xml" value="0.10989583333333333" />
         <entry key="..\:/JC/Android/BrataBioskop/app/src/main/res/layout/activity_main.xml" value="0.1751269035532995" />
         <entry key="..\:/JC/Android/BrataBioskop/app/src/main/res/layout/activity_order.xml" value="0.22" />
         <entry key="..\:/JC/Android/BrataBioskop/app/src/main/res/layout/activity_splash_screen.xml" value="0.1765625" />
